@@ -1,7 +1,9 @@
+"use client";
+
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-function TextLinkExample() {
+function Header() {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
@@ -13,7 +15,7 @@ function TextLinkExample() {
                 display: 'flex',
                 gap: '1rem',
             }}>
-            <img src="sepet.png" alt="" width={35}  height={35} />
+            <img src="/sepet.png" alt="" width={35}  height={35} />
             </div>
           </Navbar.Text>
         </Navbar.Collapse>
@@ -22,4 +24,4 @@ function TextLinkExample() {
   );
 }
 
-export default TextLinkExample;
+export default Header;
